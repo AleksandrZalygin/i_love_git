@@ -17,3 +17,6 @@ word_to_encrypt = input('Введите слово или фразу для ши
 user_encryption_method = input('Каким способом зашифровать:\n1. MD5\n2. SHA1\n> ')
 
 print(group_of_encryption_methods[user_encryption_method](word_to_encrypt))
+
+
+print('Что-нибудь новое, добавленное с другой ветки.')
